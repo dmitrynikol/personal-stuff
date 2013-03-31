@@ -141,8 +141,8 @@ public class Element implements Renderer, Updater {
 }
 ```
 
-### XML and GWT guidelines
-This is not only an entirely coding convention it’s also some explanation and recommendation on how to architect some of the features. 
+### GWT guidelines
+This is not an entirely coding convention it’s some explanation and recommendation on how to architect some of the features. 
 
 
 Examples
