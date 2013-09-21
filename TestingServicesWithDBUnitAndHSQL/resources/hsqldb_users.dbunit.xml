@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<table name="users">
+		<column>id</column>
+		<column>first_name</column>
+		<column>last_name</column>
+		<column>email</column>
+        <row>
+            <value>123</value>
+            <value>Tom</value>
+            <value>Jenkins</value>
+            <value>tom.jenkins@gmail.com</value>
+        </row>
+        <row>
+			<value>456</value>
+			<value>Red</value>
+			<value>Balloon</value>
+			<value>red.balloon@gmail.com</value>
+		</row>
+		<row>
+			<value>789</value>
+			<value>Max</value>
+			<value>Liano</value>
+			<value>maxliano@gmail.com</value>
+		</row>
+	</table>
+</dataset>
