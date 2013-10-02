@@ -30,7 +30,7 @@ public class FinderHelper {
 		List<File> files = searchFile(fileName, new File(fileDirectory));
 		// if list is empty then we should search and download it
 		if (files.isEmpty()) {
-			downloadFile(repository.concat("/").concat(fileName), "C:\\Users\\Public");
+			downloadFile(repository.concat("/").concat(fileName), fileDirectory);
 		} else {
 			for (File filePath : files) {
 				System.out.println("File URL: " + filePath);
